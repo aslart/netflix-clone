@@ -24,16 +24,16 @@ function ListItem({ index }) {
         <>
           <video
             src={trailer}
-            autoplay
+            autoPlay={true}
             loop
           />
 
           <div className="itemInfo">
             <div className="icons">
-              <PlayArrow />
-              <Add />
-              <ThumbDownAltOutlined />
-              <ThumbUpAltOutlined />
+              <PlayArrow className="icon" />
+              <Add className="icon" />
+              <ThumbDownAltOutlined className="icon" />
+              <ThumbUpAltOutlined className="icon" />
             </div>
             <div className="itemInfoTop">
               <span>1 hour 14 mins</span>
